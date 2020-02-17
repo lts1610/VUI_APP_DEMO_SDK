@@ -1,0 +1,11 @@
+framework module VUISDK {
+  umbrella header "VUISDK.h"
+
+  export *
+  module * { export * }
+}
+
+module VUISDK.Swift {
+    header "VUISDK-Swift.h"
+    requires objc
+}
